@@ -1,0 +1,132 @@
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.contenido-p {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(214, 13, 13);
+  color: rgb(255, 255, 255);
+}
+
+
+
+nav {
+  margin-bottom: 0rem;
+}
+
+a.nav-link{
+}
+
+a.nav-link:hover{
+  text-decoration: underline;
+}
+
+.imagen_g {
+  margin: 20px 0;
+
+}
+
+.imagen_g img {
+   border-radius: 50px;
+}
+
+.container img{
+  border-radius: 50px;
+}
+
+
+.imagenes {
+  display: flex;
+  justify-content: space-between;
+}
+.imagen {
+  width: 33%;
+  height: 200px;
+  margin-left: 10px;
+}
+.imagen img {
+  height: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.imagen:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1.2);
+}
+
+
+
+
+.album_recomendados{
+  position: relative;
+  top: 20px;
+  height: auto;
+  margin: auto;
+
+}
+
+.album_recomendados .list-imagen{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+.album_recomendados .list-imagen li{
+  margin: 0 10px 20px 10px;
+  list-style: none;
+
+}
+
+
+.album_recomendados .list-imagen li .container-image{
+  position: relative;
+  border-radius: 5px;
+  background-color: #000;
+  color:white;
+  text-align: center;
+  
+}
+
+.album_recomendados .list-imagen li  .container-image img{
+  position: relative;
+  border-radius: 5px;
+  width: 250px;
+  height: 150px;
+}
+
+
+
+
+footer {
+  background-color: #000;
+  color: rgb(224, 223, 220);
+  padding: 3rem;
+}
+footer .contenido-p .logo {
+  width: 110px;
+  border-radius: 20px;
+}
+
